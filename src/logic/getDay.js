@@ -1,4 +1,4 @@
-function getDay() {
+const getDay = () => {
   const today = new Date();
 
   const dayIndex = today.getDay() - 1;
@@ -39,6 +39,6 @@ function getDay() {
   }
 
   console.log(`Current time is: ${hour} ${noonTime}:${minutes}:${seconds}`);
-}
+};
 
 export default getDay;
